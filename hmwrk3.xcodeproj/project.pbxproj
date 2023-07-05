@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		962BD9152A540DC1007AB6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BD9142A540DC1007AB6EC /* main.swift */; };
+		962BD91C2A5410DD007AB6EC /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BD91B2A5410DD007AB6EC /* Hero.swift */; };
+		962BD91E2A5411C6007AB6EC /* ClassicHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BD91D2A5411C6007AB6EC /* ClassicHero.swift */; };
+		962BD9202A5411DB007AB6EC /* AntiHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BD91F2A5411DB007AB6EC /* AntiHero.swift */; };
+		962BD9222A54126F007AB6EC /* superHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BD9212A54126E007AB6EC /* superHero.swift */; };
+		96790C662A558E890048E06A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96790C652A558E890048E06A /* Product.swift */; };
+		96790C682A558E920048E06A /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96790C672A558E920048E06A /* Market.swift */; };
+		96790C6A2A558F130048E06A /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96790C692A558F130048E06A /* Provider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		962BD9112A540DC1007AB6EC /* hmwrk3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hmwrk3; sourceTree = BUILT_PRODUCTS_DIR; };
 		962BD9142A540DC1007AB6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		962BD91B2A5410DD007AB6EC /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		962BD91D2A5411C6007AB6EC /* ClassicHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicHero.swift; sourceTree = "<group>"; };
+		962BD91F2A5411DB007AB6EC /* AntiHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntiHero.swift; sourceTree = "<group>"; };
+		962BD9212A54126E007AB6EC /* superHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superHero.swift; sourceTree = "<group>"; };
+		96790C652A558E890048E06A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		96790C672A558E920048E06A /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		96790C692A558F130048E06A /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				962BD9142A540DC1007AB6EC /* main.swift */,
+				962BD9212A54126E007AB6EC /* superHero.swift */,
+				962BD91B2A5410DD007AB6EC /* Hero.swift */,
+				962BD91D2A5411C6007AB6EC /* ClassicHero.swift */,
+				962BD91F2A5411DB007AB6EC /* AntiHero.swift */,
+				96790C652A558E890048E06A /* Product.swift */,
+				96790C672A558E920048E06A /* Market.swift */,
+				96790C692A558F130048E06A /* Provider.swift */,
 			);
 			path = hmwrk3;
 			sourceTree = "<group>";
@@ -121,6 +142,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				962BD9152A540DC1007AB6EC /* main.swift in Sources */,
+				962BD91C2A5410DD007AB6EC /* Hero.swift in Sources */,
+				96790C682A558E920048E06A /* Market.swift in Sources */,
+				962BD91E2A5411C6007AB6EC /* ClassicHero.swift in Sources */,
+				96790C6A2A558F130048E06A /* Provider.swift in Sources */,
+				962BD9222A54126F007AB6EC /* superHero.swift in Sources */,
+				962BD9202A5411DB007AB6EC /* AntiHero.swift in Sources */,
+				96790C662A558E890048E06A /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

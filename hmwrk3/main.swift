@@ -1,11 +1,25 @@
-//
-//  main.swift
-//  hmwrk3
-//
-//  Created by User1 on 4/7/23.
-//
-
 import Foundation
 
-print("Hello, World!")
+var antiHEro=AntiHero(name: "Megabrain", health: 100, abilities: ["think","shoot","run"])
+var superHero = SuperHero(name: "Mr. Incradible", health: 100, abilities: ["hit","fly"])
+var classicHero = ClassicHero(name: "Hawkeye", health: 100, abilities: ["sharpshooting", "strategic", "healer"])
+classicHero.makeAbility(hero: antiHEro)
+antiHEro.makeAbility(hero: superHero)
+superHero.makeAbility(hero: antiHEro)
+superHero.makeAbility(hero: classicHero)
+print("-------------------------------------\n\n")
+var market=Market()
+var provider=Provider(market: market)
 
+provider.addProductToMarket(product: Product(name: "Milk", price: 68, code: 1111, sale: true))
+provider.addProductToMarket(product: Product(name: "Twix", price: 50, code: 2222, sale: false))
+provider.addProductToMarket(product: Product(name: "Bread", price: 20, code: 3333, sale: false))
+provider.addProductToMarket(product: Product(name: "Lays", price: 90, code: 4444, sale: true))
+provider.addProductToMarket(product: Product(name: "Bounty", price: 70, code: 5555, sale: true))
+provider.addProductToMarket(product: Product(name: "Icecream", price: 68, code: 6666, sale: false))
+provider.addProductToMarket(product: Product(name: "Water", price: 35, code: 7777, sale: false))
+provider.addProductToMarket(product: Product(name: "Milka", price: 80, code: 8888, sale: true))
+
+market.productsInfo()
+print("----------------------------------------")
+market.productsWithSale()
